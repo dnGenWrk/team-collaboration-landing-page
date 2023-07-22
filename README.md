@@ -1,3 +1,3 @@
-# SchoolF
-Landing Page SchoolF
-### Webpack, Babel, Sass, PostCss, Image optimization.
+# Team Collaboration Landing Page
+Landing Page
+### Webpack, Babel, Sass, PostCss, Tailwindcss, Image optimization.
