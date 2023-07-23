@@ -1,0 +1,31 @@
+.lp-header {
+  background-image: url("components/header/img/header-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #4b4aef;
+  @media (min-width: 768px) {
+    background-size: 60%;
+    background-color: unset;
+  }
+  .img-wrap {
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    margin: 0 auto;
+    @media (min-width: 768px) {
+      width: 120px;
+      height: 120px;
+    }
+    @media (min-width: 1280px) {
+      width: 200px;
+      height: 200px;
+    }
+    .cstm-img1 {
+      height: 100%;
+      width: auto;
+      max-width: unset;
+      position: relative;
+      left: -32px;
+    }
+  }
+}
