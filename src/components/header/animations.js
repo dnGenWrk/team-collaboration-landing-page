@@ -10,8 +10,7 @@ import gsap from "gsap";
     animObj7: document.querySelectorAll(".aim-obj7"),
     animObj8: document.querySelectorAll(".aim-obj8"),
   };
-  /* 
-  ! UNCOMMENT WHEN PUBLISH 
+
   const t1 = gsap.timeline();
   t1.from(headeritemsAnimate.animObj1, { backgroundSize: 0, duration: 0.8 });
   t1.from(headeritemsAnimate.animObj2, { opacity: 0, x: -300, duration: 0.4 });
@@ -21,5 +20,4 @@ import gsap from "gsap";
   t1.from(headeritemsAnimate.animObj6, { opacity: 0, x: 300, duration: 0.4 }, +0.4);
   t1.from(headeritemsAnimate.animObj7, { opacity: 0, y: -300, duration: 0.5 }, +0.8);
   t1.from(headeritemsAnimate.animObj8, { opacity: 0, y: 300, duration: 0.5 }, +1.6);
-  */
 })();
