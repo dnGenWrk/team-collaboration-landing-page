@@ -1,0 +1,83 @@
+.customer-img-animation-block {
+  .customer-img_wrapper {
+    position: relative;
+    height: 600px;
+    width: 500px;
+    margin: 0 auto;
+    @media screen and (max-width: 767px) {
+      width: 320px;
+      height: 361px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1340px) {
+      width: 260px;
+      height: 308px;
+    }
+    .shape-bg-1 {
+      width: 152px;
+      background-color: #3adad9;
+      height: 400px;
+      display: inline-block;
+      position: absolute;
+      z-index: 1;
+      @media screen and (max-width: 767px) {
+        width: 189px;
+        height: 374px;
+      }
+      @media screen and (min-width: 768px) and (max-width: 1340px) {
+        width: 136px;
+        height: 308px;
+      }
+    }
+    .shape-bg-2 {
+      width: 153px;
+      background-color: #fed369;
+      height: 260px;
+      display: inline-block;
+      z-index: 2;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      @media screen and (max-width: 767px) {
+        width: 132px;
+        height: 374px;
+        right: 0;
+        bottom: -13px;
+      }
+      @media screen and (min-width: 768px) and (max-width: 1340px) {
+        width: 125px;
+        height: 233px;
+      }
+    }
+    .customer-img-hero {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      width: 476px;
+      height: 578px;
+      z-index: 3;
+      @media screen and (max-width: 767px) {
+        width: 300px;
+        height: 351px;
+      }
+      @media screen and (min-width: 768px) and (max-width: 1340px) {
+        width: 240px;
+        height: 285px;
+      }
+    }
+    .customer-img-text-content {
+      position: absolute;
+      right: -153px;
+      bottom: 20px;
+      width: 308px;
+      height: 178px;
+      border-radius: 12px;
+      background-color: #fafaff;
+      color: #3c405f;
+      font-size: 20px;
+      z-index: 5;
+      @media screen and (max-width: 1023px) {
+        display: none;
+      }
+    }
+  }
+}
