@@ -6,7 +6,6 @@ import validator from "validator";
   const invalidEmailMessage = document.getElementById("email_invalid_message");
   const emailBlock = document.querySelector(".subscibe-cta-block");
   let modal = document.getElementById("my-modal");
-  //let btn = document.getElementById("open-btn");
   let button = document.getElementById("ok-btn");
 
   emailInput.addEventListener("input", updateValue);
@@ -24,12 +23,7 @@ import validator from "validator";
       invalidEmailMessage.style.setProperty("visibility", "visible");
       emailInput.focus();
     } else {
-      console.log("!!! FIRE");
-      // We want the modal to open when the Open button is clicked
-
       modal.style.display = "block";
-
-      // We want the modal to close when the OK button is clicked
       button.onclick = function () {
         modal.style.display = "none";
       };
