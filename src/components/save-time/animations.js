@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
   gsap.from(animateSection, {
     opacity: 0,
-    x: 600,
+    x: -600,
     scrollTrigger: whatSect,
     duration: 0.8,
     delay: 0.6,
