@@ -638,6 +638,8 @@ video {
   flex-direction: column;
 }.items-center {
   align-items: center;
+}.justify-start {
+  justify-content: flex-start;
 }.justify-center {
   justify-content: center;
 }.justify-between {
@@ -962,6 +964,10 @@ video {
     display: block;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:w-\[25\%\] {
     width: 25%;
   }
@@ -984,6 +990,10 @@ video {
 
   .md\:items-center {
     align-items: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 
   .md\:gap-14 {
